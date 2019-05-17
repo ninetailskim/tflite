@@ -55,7 +55,7 @@ CFLAGS :=
 LDOPTS := -L/usr/local/lib
 ARFLAGS := -r
 TARGET_TOOLCHAIN_PREFIX :=
-LDFLAGS := -L/usr/local/arrch-toolchain/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu/lib
+LDFLAGS := -L/usr/local/aarch64-linux/lib
 #CC_PREFIX :=
 
 INCLUDES += -I/usr/local/include

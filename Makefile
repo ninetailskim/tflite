@@ -55,7 +55,7 @@ CFLAGS :=
 LDOPTS := -L/usr/local/lib
 ARFLAGS := -r
 TARGET_TOOLCHAIN_PREFIX :=
-LDFLAGS := -L/usr/local/arrch-toolchain/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu/lib
+LDFLAGS := -L/usr/local/aarch64-linux/lib
 #CC_PREFIX :=
 
 INCLUDES += -I/usr/local/include
@@ -165,7 +165,6 @@ ALL_SRCS := \
 	$(BENCHMARK_SRCS)
 
 LIB_PATH := $(LIBDIR)$(LIB_NAME)
-#LIB_PATH += /usr/local/arrch-toolchain/gcc-linaro-7.4.1-2019.02-x86_64_aarch64-linux-gnu/lib
 BENCHMARK_LIB := $(LIBDIR)$(BENCHMARK_LIB_NAME)
 BENCHMARK_BINARY := $(BINDIR)$(BENCHMARK_BINARY_NAME)
 MINIMAL_BINARY := $(BINDIR)minimal
